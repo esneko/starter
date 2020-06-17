@@ -1,0 +1,17 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "No tooling starter",
+  "main": "public/index.js",
+  "module": "public/index.js",
+  "scripts": {
+    "build": "echo 'add build step here'",
+    "dev": "echo 'add dev step here'"
+  },
+  "files": [
+    "public"
+  ],
+  "author": "es neko <esneko@gmail.com>",
+  "repository": "esneko/starter",
+  "license": "MIT"
+}
