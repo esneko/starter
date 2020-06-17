@@ -1,17 +1,29 @@
 {
-  "name": "starter",
+  "name": "typescript-starter",
   "version": "1.0.0",
-  "description": "No tooling starter",
+  "description": "Typescript starter",
   "main": "public/index.js",
   "module": "public/index.js",
   "scripts": {
-    "build": "echo 'add build step here'",
-    "dev": "echo 'add dev step here'"
+    "clean": "rm -rf dist",
+    "build": "yarn clean && tsc",
+    "dev": "tsc -w"
   },
   "files": [
     "public"
   ],
   "author": "es neko <esneko@gmail.com>",
   "repository": "esneko/starter",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "recoil": "^0.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.37",
+    "@types/react-dom": "^16.9.8",
+    "@types/recoil": "^0.0.1",
+    "typescript": "^3.9.5"
+  }
 }

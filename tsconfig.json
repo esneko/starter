@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "public/dist",
+    "rootDir": "src",
+    "lib": ["dom", "esnext"],
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true
+  },
+  "include": ["src/**/*"]
+}
